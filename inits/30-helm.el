@@ -1,0 +1,15 @@
+(require 'helm-config)
+(require 'helm-ag)
+(require 'helm-swoop)
+(require 'helm-descbinds)
+
+(helm-descbinds-mode)
+
+(global-set-key (kbd "C-;") 'helm-mini)
+(global-set-key (kbd "C-c h") 'helm-mini)
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "C-x b") 'helm-buffers-list)
+(global-set-key (kbd "C-c b") 'helm-descbinds)
+(global-set-key (kbd "C-c o") 'helm-swoop)
+(global-set-key (kbd "C-c s") 'helm-ag)
+(global-set-key (kbd "C-c y") 'helm-show-kill-ring)
