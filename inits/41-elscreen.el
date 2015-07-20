@@ -1,2 +1,2 @@
-(setq elscreen-prefix-key (kbd "C-i"))
+(setq elscreen-prefix-key (kbd "C-v"))
 (elscreen-start)
