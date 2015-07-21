@@ -23,13 +23,16 @@
     mew
     migemo
     org-cua-dwim
+    org-remember-insinuate
     sql-indent
     twittering-mode
     paredit
-    eldoc-extention
+    eldoc-extension
     ess
     projectile
     tangotango-theme
+    yasanippet
+    magit
     ))
 
 (let ((not-installed (loop for x in installing-package-list
