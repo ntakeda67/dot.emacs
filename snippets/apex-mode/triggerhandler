@@ -1,0 +1,18 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: triggerhandler
+# key: triggerhandler
+# binding: direct-keybinding
+# --
+public class `(file-name-sans-extension (file-name-nondirectory(buffer-file-name)))` extends TriggerHandler {
+    public `(file-name-sans-extension (file-name-nondirectory(buffer-file-name)))`() {
+	this.setMaxLoopCount(1);
+    }
+    
+  //public override void beforeInsert(){}
+  //public override void beforeUpdate(){}
+  //public override void beforeDelete(){}
+  //public override void afterInsert(){}
+  //public override void afterUpdate(){}
+  //public override void afterDelete(){}
+  //public override void afterUndelete(){}
+}

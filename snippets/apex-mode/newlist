@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: newlist
+# key: newlist
+# binding: direct-keybinding
+# --
+List<$1> ${2:list} = new List<$1>();$0

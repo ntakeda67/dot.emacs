@@ -1,0 +1,11 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: apextest
+# key: apextest
+# binding: direct-keybinding
+# --
+@IsTest
+public with sharing class `(file-name-sans-extension (file-name-nondirectory(buffer-file-name)))`{
+    @IsTest
+    public static void hoge(){
+    }
+}

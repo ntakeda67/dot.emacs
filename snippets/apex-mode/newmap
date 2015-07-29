@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: newmap
+# key: newmap
+# binding: direct-keybinding
+# --
+Map<$1, $2> newMap = new Map<$1, $2>();

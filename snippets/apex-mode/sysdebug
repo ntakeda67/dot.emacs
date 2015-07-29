@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: sysdebug
+# key: sysdebug
+# binding: direct-keybinding
+# --
+System.debug($0);

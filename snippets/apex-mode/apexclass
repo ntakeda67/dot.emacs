@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: apexclass
+# key: apexclass
+# binding: direct-keybinding
+# --
+/**
+  *
+  */
+public with sharing class `(file-name-sans-extension (file-name-nondirectory(buffer-file-name)))`{
+}

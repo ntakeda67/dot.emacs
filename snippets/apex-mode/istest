@@ -1,0 +1,18 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: istest
+# key: istest
+# binding: direct-keybinding
+# --
+@IsTest
+public static void ${1:func_cond_expected}(){
+       /* setup */
+       $0
+
+       /* do */
+       Test.startTest();
+       Test.stopTest();
+       
+       /* verify */
+       /* System.assertEquals(expected, actual) */
+       System.assert(false, 'not yet implemented');
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: apextrigger
+# key: apextrigger
+# binding: direct-keybinding
+# --
+trigger `(file-name-sans-extension (file-name-nondirectory(buffer-file-name)))` on $2 (
+  before insert, before update, before delete,
+    after insert, after update, after delete, after undelete) {
+
+  //new `(file-name-sans-extension (file-name-nondirectory(buffer-file-name)))`Handler().run();
+}
