@@ -31,7 +31,7 @@
     ess
     projectile
     tangotango-theme
-    yasanippet
+    yasnippet
     magit
     javadoc-lookup
     ))
