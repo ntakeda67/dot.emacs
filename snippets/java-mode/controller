@@ -1,0 +1,17 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: controller
+# key: controller
+# binding: direct-keybinding
+# --
+package controllers;
+
+import play.Logger;
+import play.mvc.*;
+
+
+public class `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))` extends BaseController {
+
+       public static void index(){
+       	      render();
+       }
+}
