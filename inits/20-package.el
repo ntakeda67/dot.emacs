@@ -33,6 +33,7 @@
     tangotango-theme
     yasanippet
     magit
+    javadoc-lookup
     ))
 
 (let ((not-installed (loop for x in installing-package-list
