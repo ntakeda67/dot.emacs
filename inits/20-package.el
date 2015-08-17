@@ -34,6 +34,7 @@
     yasnippet
     magit
     javadoc-lookup
+    auto-complete
     ))
 
 (let ((not-installed (loop for x in installing-package-list
