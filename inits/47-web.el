@@ -1,6 +1,7 @@
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
-
+(setq web-mode-markup-indent-offset 2)
+(setq indent-tabs-mode nil)
 ;; 色の設定
 (custom-set-faces
  '(web-mode-doctype-face
