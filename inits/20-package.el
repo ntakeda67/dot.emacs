@@ -36,6 +36,7 @@
     javadoc-lookup
     auto-complete
     web-mode
+    plantuml-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
