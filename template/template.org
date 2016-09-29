@@ -1,0 +1,5 @@
+#+TITLE: Untitled
+#+AUTHOR: ntakeda67
+#+LANGUAGE: ja
+#+OPTIONS: creator:nil LaTeX:t
+#+STYLE: <link rel="stylesheet" type="text/css" href="~/.emacs.d/template/org.css">
