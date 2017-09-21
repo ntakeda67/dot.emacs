@@ -403,3 +403,4 @@
      (window-divider-first-pixel ((t (:foreground "gray80"))))
      (window-divider-last-pixel ((t (:foreground "gray40")))))))
 (add-to-list 'color-themes '(my-color-theme  "THEME NAME" "YOUR NAME"))
+(my-color-theme)
